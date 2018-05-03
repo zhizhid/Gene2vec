@@ -85,7 +85,7 @@ tf.flags.DEFINE_boolean("train_embedding", False, "train_embedding")
 This script takes gene2vec tsne files (label and data) and tissue-specific genes expression files as the input
 and generates tissues-specific genes experssion maps.
 
-The tissue-specific genes expression file should follow the following format, each line starts with the gene name and followed by the z score:
+The tissue-specific genes expression file should follow the following format. Each line starts with the gene name and followed by the z score:
 ```
 ATRX	0.598962527411
 TCOF1	-0.264690317639
