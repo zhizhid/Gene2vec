@@ -54,7 +54,7 @@ p.map(TSNEWoker, ["100","5000","10000","20000","50000","100000"])
 
 ### GGIPNN_Classification.py
 GGIPNN stands for gene-gene interaction predictor neural network. Given training, validation and testing dataset for gene-gene interaction,
-this script will leverage multilayer perceptron (defined in GGIPNN.py) to predict gene-gene interaction.
+this script will leverage multilayer perceptron (defined in GGIPNN.py) to predict gene-gene interaction and generate the AUC score.
 
 Each dataset (training, validation and testing) should have two files:
 
